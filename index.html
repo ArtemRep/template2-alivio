@@ -52,6 +52,41 @@
     </header>
 
 
+    <!-- !МОБИЛЬНОЕ МЕНЮ -->
+    <div class="mobile-navigation" aria-label="мобильное меню навигации">
+        <label for="menu-toggler-id" aria-label="открыть-закрыть мобильное меню навигации">
+            <svg class="mobile-navigation__burger" aria-label="иконка бургера">
+                <use href="assets/sprites.svg#burger-icon"></use>
+            </svg>
+        </label>
+
+        <input class="mobile-navigation__toggler" type="checkbox" name="toggler" id="menu-toggler-id">
+
+        <nav class="mobile-navigation__menu" aria-label="мобильное меню навигации">
+            <ul class="mobile-navigation__list" aria-label="mobile navigation list">
+                <li class="mobile-navigation__item">
+                    <a href="#about-id" class="mobile-navigation__link">Why Alivio</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#success-id" class="mobile-navigation__link">Solutions</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#product-id" class="mobile-navigation__link">Community</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#pricing-id" class="mobile-navigation__link">Pricing</a>
+                </li>
+            </ul>
+            <label class="mobile-navigation__close" for="menu-toggler-id" aria-label="закрыть мобильное меню навигации">
+                <svg class="mobile-navigation__cross" aria-label="иконка крестика-закрыть меню">
+                    <use href="assets/sprites.svg#cross-icon"></use>
+                </svg>
+            </label>
+        </nav>
+
+    </div>
+
+
     <main>
         <!-- !СЕКЦИЯ HERO -->
         <section class="hero" aria-label="hero section" id="hero-id">
